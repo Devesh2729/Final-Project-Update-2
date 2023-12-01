@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-image: url(img/memimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.membership {
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+    background-color: darkgray;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 47px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.membership-plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.plan {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    text-align: center;
+}
+
+.plan h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.plan p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.plan button {
+    background-color: #3db557;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.plan button:hover {
+    background-color: #091e0e;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.social-icon i {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 575px){
+    .header{
+        flex-direction: column;
+        gap: 15px;
+    
+    }
+    .header button{
+        margin-left: 0;
+    }
+    .gym_image_container{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .backimage-text{
+        font-size: 15px;
+    }
+    .video-overlay-text{
+        font-size: 15px;
+    }
+}
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+
+            .header {
+                padding: 10px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin-bottom: 10px;
+            }
+
+            .backimage-text h2 {
+                font-size: 18px;
+            }
+
+            .numbercircle {
+                font-size: 18px;
+            }
+
+            .info_section_container {
+                flex-direction: column;
+            }
+
+            .information {
+                margin-bottom: 20px;
+            }
+        }
